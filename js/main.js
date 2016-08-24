@@ -36,7 +36,7 @@ var Life = {
 	  var element = new legend[ch]();
 	  element.originChar = ch;
 	  return element;
-	}
+	},
 	// Word constructor
 	World: function (map, legend) {
 	  var grid = new Life.Grid(map[0].length, map.length);
